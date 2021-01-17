@@ -27,6 +27,6 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/shylocks/Loon.git"
-          source_branch: "master"
+          source_branch: "main"
           destination_branch: "main"
           github_token: ${{ secrets.PAT }}
